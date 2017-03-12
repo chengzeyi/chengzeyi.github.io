@@ -1,9 +1,9 @@
 /*Author: Cheng Zeyi, Designed for my blog*/
 
 *{margin: 0px; padding: 0px;}
-body, html{background: none repeat scroll 0% 0% #7B96BD; color: #444; font-family: "Hiragino Sans GB W3","Microsoft YaHei",Tahoma,Arial; font-size: 14px; text-align: center;}
+body, html{background: none repeat scroll 0% 0% #7b96bd; color: #444; font-family: "Hiragino Sans GB W3","Microsoft YaHei",Tahoma,Arial; font-size: 14px; text-align: center;}
 a, a:link, a:visited{color: #444; text-decoration: none;}
-a:hover{color: #DD3333;}
+a:hover{color: #dd3333;}
 img{border: 0px none;}
 
 #wrapper{margin: auto; text-align: left; width: 984px;}
@@ -13,7 +13,7 @@ img{border: 0px none;}
 #header .nav{background-color: #666; height: 40px}
 #header .nav-items{list-style-type: none; margin: 0px; padding: 0px; position: relative;}
 #header .nav-item{float: left; text-transform: uppercase; position: relative;}
-#header .nav-link{background-color: #666;color: #CCC; display: block; font-size: 15px; padding: 10px 15px;}
+#header .nav-link{background-color: #666;color: #ccc; display: block; font-size: 15px; padding: 10px 15px;}
 #header .nav-link:hover{background-color: #555;}
 #header .nav-item a:hover{color: #999; position: relative; text-decoration: none;}
 #header .logo{float: left;}
@@ -21,17 +21,17 @@ img{border: 0px none;}
 #header .logo h1 a{background: url("../photos/logo.gif") no-repeat scroll 0px 0px transparent; display: block; height: 60px; outline: medium none; text-indent: -9999px; width: 120px;}
 #header .logo p{display: none;}
 
-#body{border-color: #666; border-style: solid; border-width: 0px 1px; overflow: hidden}
+#body{background-color: #ffffff; border-color: #666; border-style: solid; border-width: 0px 1px; overflow: hidden}
 
-#content{float: left; overflow: hidden; padding: 10px; width: 635px; height: 470px;}
+#content{float: left; overflow: hidden; padding: 10px; width: 620px;}
 #content img{height: px; margin: 15px 10px 0px 0px; width: 75px;}
 
-#sidebar{border-left: 1px solid #666; float: right; padding: 5px; width: 315px; height:480px;}
+#sidebar{background-color: #fffbf0; border-left: #666 solid 1px; border-bottom: #666 solid 1px; float: right; padding: 10px; width: 320px;}
 #sidebar img{padding: 5px 5px 0 5px;width:145px; height:145px;}
-#sidebar ol{border-bottom: 1px solid #EEE; color: #AAA; line-height: 2em; list-style: outside none decimal; padding: 15px 20px 15px 35px;margin-left:-2px;}
-#sidebar ul{border-bottom: 1px solid #EEE; line-height: 1.5em; list-style-type: none; padding: 15px 20px;margin-left:-2px;}
+#sidebar ol{border-bottom: 1px solid #666; color: #aaa; line-height: 2em; list-style: outside none decimal; padding: 15px 20px 15px 35px;margin-left:-2px;}
+#sidebar ul{border-bottom: 1px solid #666; line-height: 1.5em; list-style-type: none; padding: 15px 20px;margin-left:-2px;}
 #sidebar li {font-size:12px;}
 
 
-#footer{border-bottom: 1px solid #666; border-top: 1px solid #666; clear: both; color: #000000; font-size: 14px; line-height: 2em; padding: 10px; text-align: center;}
+#footer{background-color: #666; border: 1px solid #666; clear: both; color: #000000; font-size: 14px; line-height: 2em; padding: 10px; text-align: center;}
 #footer a{color: #000000;}
