@@ -11,7 +11,7 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 	<!-- ICON -->
-	<link rel="shortcut icon" type="image/x-icon" href="../photos/icon.ico" media="screen" /> 
+	<link rel="shortcut icon" type="image/x-icon" href="photos/icon.ico" media="screen" /> 
 </head>
 
 <body>
@@ -27,7 +27,7 @@
 			<!-- Begin Nav -->
 			<div class="nav">
 				<ul class="nav-items">
-					<li class="nav-item"><a class="nav-link" href="index.html">Index</a></li>
+					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="posts.html">Posts</a></li>
 					<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
 				</ul>
@@ -82,9 +82,21 @@
 			<!-- End Content -->
 			<!-- Begin Sidebar -->
 			<div id="sidebar">
-				<h1>I am playing...</h1>
-				<img src="photos/sidebar/1.png" alt="HearthStone" />
-				<img src="photos/sidebar/2.png" alt="FarCry 4" />
+				<ul>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown">Other Pages About Me<i class="icon-arrow"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="https://github.com/chengzeyi">MY Github Profile</a></li>
+							<li><a href="https://www.zhihu.com/people/cheng-ze-yi-53-48/activities">My ZhiHu Homepage</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown">Fun Websites<i class="icon-arrow"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="https://jandan.net">Jandan</a></li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 			<!-- End Sidebar -->
 		</div>
@@ -96,6 +108,7 @@
 		<!-- End Footer -->
 	</div>
 <!-- End Wrapper -->
+	<script src="js/script.js"></script>
 </body>
 
 </html>

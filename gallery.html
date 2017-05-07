@@ -11,10 +11,10 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 	<!-- ICON -->
-	<link rel="shortcut icon" type="image/x-icon" href="../photos/icon.ico" media="screen" /> 
+	<link rel="shortcut icon" type="image/x-icon" href="photos/icon.ico" media="screen" /> 
 </head>
 
-<body>
+<body onload="slideShow()">
 	<!-- Begin Wrapper -->
 	<div id="wrapper">
 		<div id="header">
@@ -27,7 +27,7 @@
 			<!-- Begin Nav -->
 			<div class="nav">
 				<ul class="nav-items">
-					<li class="nav-item"><a class="nav-link" href="index.html">Index</a></li>
+					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="posts.html">Posts</a></li>
 					<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
 				</ul>
@@ -38,14 +38,55 @@
 		<div id="body">
 			<!-- Begin Content -->
 			<div id="content">
-				<h1>No photos!</h1>
+				<!-- Begin Gallery -->
+				<div id="gallery">
+					<div id="imagearea">
+						<div id="image">
+							<a href="javascript:imgNav(-1)" class="imgnav " id="previmg"></a>
+							<a href="javascript:imgNav(1)" class="imgnav " id="nextimg"></a>
+						</div>
+					</div>
+					<div id="thumbwrapper">
+						<div id="thumbarea">
+							<ul id="thumbs">
+								<li value="1"><img src="photos/gallery/1.jpg" alt="" /></li>
+								<li value="2"><img src="photos/gallery/2.jpg" alt="" /></li>
+								<li value="3"><img src="photos/gallery/3.jpg" alt="" /></li>
+								<li value="4"><img src="photos/gallery/4.jpg" alt="" /></li>
+								<li value="5"><img src="photos/gallery/5.jpg" alt="" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					var imgid = 'image';
+					var imgdir = 'photos/gallery';
+					var imgext = '.jpg';
+					var thumbid = 'thumbs';
+					var auto = true;
+					var autodelay = 5;
+				</script>
+				<script type="text/javascript" src="js/slide.js"></script> 
+				<!-- End Gallery -->
 			</div>
 			<!-- End Content -->
 			<!-- Begin Sidebar -->
 			<div id="sidebar">
-				<h1>I am playing...</h1>
-				<img src="photos/sidebar/1.png" alt="HearthStone" />
-				<img src="photos/sidebar/2.png" alt="FarCry 4" />
+				<ul>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown">Other Pages About Me<i class="icon-arrow"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="https://github.com/chengzeyi">MY Github Profile</a></li>
+							<li><a href="https://www.zhihu.com/people/cheng-ze-yi-53-48/activities">My ZhiHu Homepage</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown">Fun Websites<i class="icon-arrow"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="https://jandan.net">Jandan</a></li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 			<!-- End Sidebar -->
 		</div>
@@ -57,6 +98,7 @@
 		<!-- End Footer -->
 	</div>
 <!-- End Wrapper -->
+	<script src="js/script.js"></script>
 </body>
 
 </html>
