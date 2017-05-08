@@ -15,7 +15,12 @@
 	<link rel="shortcut icon" type="image/x-icon" href="photos/icon.ico" media="screen" />
 </head>
 
-<body>
+<body onload = "bgShow()">
+	<!-- Begin Canvas -->
+	<div id="canvas">
+		<canvas id="Mycanvas"></canvas>
+	</div>
+	<!-- End Canvas -->
 	<!-- Begin Wrapper -->
 	<div id="wrapper">
 		<div id="header">
@@ -58,63 +63,6 @@
 					<img src="photos/python.jpg" alt="Python" />
 					</p>
 				</div>
-				<hr />
-				<div>
-					<h1 style="color: red;">My Shedule</h1>
-					<p>
-						<br />
-						<table border="1" width="600">
-							<tr>
-								<td></td>
-								<td>MON</td>
-								<td>TUE</td>
-								<td>WEN</td>
-								<td>THU</td>
-								<td>FRI</td>
-							</tr>
-							<tr>
-								<td>Morning1</td>
-								<td></td>
-								<td>English</td>
-								<td></td>
-								<td>Math</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>Morning2</td>
-								<td>Math</td>
-								<td>Web Design</td>
-								<td>C Language</td>
-								<td></td>
-								<td>English</td>
-							</tr>
-							<tr>
-								<td>Afternoon</td>
-								<td>Digital Logic</td>
-								<td>Linear Algebra</td>
-								<td>P.E</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>Evening</td>
-								<td>Marxism</td>
-								<td></td>
-								<td></td>
-								<td>Music</td>
-								<td></td>
-							</tr>
-						</table>
-					</p>
-				<br />
-				</div>
-				<hr />
-				<div id="showdate">
-					show date field
-				</div>
-				<script>
-					document.getElementById("showdate").innerHTML = "<h1>" + Date() + "</h1>";
-				</script>
 			</div>
 			<!-- End Content -->
 			<!-- Begin Sidebar -->
@@ -144,8 +92,9 @@
 		</div>
 		<!-- End Footer -->
 	</div>
-<!-- End Wrapper -->
+	<!-- End Wrapper -->
 	<script src="js/script.js"></script>
+	<script src="js/bg.js"></script>
 </body>
 
 </html>

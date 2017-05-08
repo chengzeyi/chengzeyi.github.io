@@ -15,7 +15,12 @@
 	<link rel="shortcut icon" type="image/x-icon" href="photos/icon.ico" media="screen" /> 
 </head>
 
-<body>
+<body onload = "bgShow()">
+	<!-- Begin Canvas -->
+	<div id="canvas">
+		<canvas id="Mycanvas"></canvas>
+	</div>
+	<!-- End Canvas -->
 	<!-- Begin Wrapper -->
 	<div id="wrapper">
 		<div id="header">
@@ -108,8 +113,9 @@
 		</div>
 		<!-- End Footer -->
 	</div>
-<!-- End Wrapper -->
+	<!-- End Wrapper -->
 	<script src="js/script.js"></script>
+	<script src="js/bg.js"></script>
 </body>
 
 </html>
