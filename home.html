@@ -12,10 +12,10 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 	<!-- ICON -->
-	<link rel="shortcut icon" type="image/x-icon" href="photos/icon.ico" media="screen" /> 
+	<link rel="shortcut icon" type="image/x-icon" href="photos/icon.ico" media="screen" />
 </head>
 
-<body onload = "bgShow(); slideShow()">
+<body onload = "bgShow()">
 	<!-- Begin Canvas -->
 	<div id="canvas">
 		<canvas id="Mycanvas"></canvas>
@@ -44,36 +44,25 @@
 		<div id="body">
 			<!-- Begin Content -->
 			<div id="content">
-				<!-- Begin Gallery -->
-				<div id="gallery">
-					<div id="imagearea">
-						<div id="image">
-							<a href="javascript:imgNav(-1)" class="imgnav " id="previmg"></a>
-							<a href="javascript:imgNav(1)" class="imgnav " id="nextimg"></a>
-						</div>
-					</div>
-					<div id="thumbwrapper">
-						<div id="thumbarea">
-							<ul id="thumbs">
-								<li value="1"><img src="photos/gallery/1.jpg" alt="" /></li>
-								<li value="2"><img src="photos/gallery/2.jpg" alt="" /></li>
-								<li value="3"><img src="photos/gallery/3.jpg" alt="" /></li>
-								<li value="4"><img src="photos/gallery/4.jpg" alt="" /></li>
-								<li value="5"><img src="photos/gallery/5.jpg" alt="" /></li>
-							</ul>
-						</div>
-					</div>
+				<div>
+					<h1>Welcome!</h1>
+					<p>
+						This is my personal blog, partly as an experimental project for the assignment of the WebDesign subject.
+						I am a student in WuHan University, majoring in Computer Science.
+						As a prime coder, I am constantly trying my best to become a top coder.
+						The style of this blog imitates jandan.net, which is my favorite news website.
+						I will gradually add new specialities to this website while continuing learning coding.
+					</p>
 				</div>
-				<script type="text/javascript">
-					var imgid = 'image';
-					var imgdir = 'photos/gallery';
-					var imgext = '.jpg';
-					var thumbid = 'thumbs';
-					var auto = true;
-					var autodelay = 5;
-				</script>
-				<script type="text/javascript" src="js/slide.js"></script> 
-				<!-- End Gallery -->
+				<hr />
+				<div>
+					<h1>My Skills</h1>
+					<p>
+					I have learnt these computer languages: Python, C, HTML, CSS.
+					And I and reading books about <i>Data structure and Algorithms</I> and <i>Computer theory.</i>
+					<img src="photos/python.jpg" alt="Python" />
+					</p>
+				</div>
 			</div>
 			<!-- End Content -->
 			<!-- Begin Sidebar -->
