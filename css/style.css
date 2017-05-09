@@ -414,7 +414,7 @@ img{border: 0px none;}
   }
 }
 
-#gallery {width:686px; margin:40px auto; padding:10px; border:6px solid #fff; background:#fff}
+#gallery {width:686px; margin:40px auto; padding:10px; background: transparent;}
 #images {border:2px solid #9ac1c9; height:225px; background:#eef5f6; margin-bottom:20px}
 #image {position:relative; width:672px; height:375px; padding:5px; border:2px solid #666; background:#FFF url(../photos/loading.gif) center center no-repeat}
 #image img {margin: 0 0 0 0; position:absolute; top:5px; left:5px; width: 672px; height: 375px}
