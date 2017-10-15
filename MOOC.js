@@ -240,7 +240,7 @@ MoocPlayer.prototype._init = function() {
 		//preAdvertList: [],	//片头广告列表(数据格式见1.6说明)
 		intervalTime: me.intervalTime,	//onPlayProgress交互事件触发频率。默认(1000毫秒)
 		isAutoChgLine: false,	//是否智能切换线路,默认值true，表示自动切换
-		isAutoPlayNext: true,	//是否自动切换至下一集
+		isAutoPlayNext: false,	//是否自动切换至下一集
 		isDefaultPlay: true,	//是否默认播放，默认值为true；设为false默认暂停
 		minKbs: 15,	//设置网速下限值，下载速度低于此值，则认为是网速慢(单位kb)，默认15kb
 		minKbsLongTime: 5,	//慢网速的持续时长，如果超过此时长，则自动切换线路(单位秒)，默认值10秒
