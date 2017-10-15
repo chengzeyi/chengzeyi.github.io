@@ -1148,6 +1148,7 @@ MoocPlayer.prototype.goPlayForUrls = function(videoUrls) {
  * @returns {MoocPlayer}
  */
 MoocPlayer.prototype.pauseMovie = function() {
+	this.player.pauseMovie();
 	return this;
 };
 
